@@ -10,7 +10,7 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "feature/cleantest" ]
+    branches: [ "feature/cleantest", "ci/**" ]
   pull_request:
     branches: [ "feature/cleantest" ]
 
